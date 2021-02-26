@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const MeshkitMesheryAdapterLibrary = styled.div`
+export const MeshkitMesheryAdapterLib = styled.div`
     
     img.right {
         width: 25%;
@@ -18,8 +18,14 @@ export const MeshkitMesheryAdapterLibrary = styled.div`
         padding-right: 3rem;
         font-style: italic;
         font-size: .8rem;
+        border-top: 1px dashed ${props => props.theme.primaryLightColor};
         border-bottom: 1px dashed ${props => props.theme.primaryLightColor};
-
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        background-color: ${props => props.theme.secondaryLightColorTwo};
+        span {
+            font-style: normal;
+        }
     }
 
     div.text {
