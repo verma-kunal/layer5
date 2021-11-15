@@ -173,6 +173,11 @@ const Data = {
           path: "https://discuss.layer5.io",
           sepLine: true
         },
+        {
+          name: "Handbook",
+          path: "/community/handbook",
+          sepLine: true
+        }
       ],
       actionItems: [
         {
